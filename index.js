@@ -50,8 +50,3 @@ const PORT = process.env.PORT || 5000;
 app
   .listen(PORT)
   .on("listening", () => console.log(`Listening on port ${PORT}`));
-
-app.service("comments").create({
-  text: "Start this stream!",
-  viewer: "Johny Walker"
-});
